@@ -39,4 +39,9 @@ class alltest {
 		int result = test.multiply(3,4);
 		assertEquals(12, result);
 	}
+	@Test
+	void divitest1J() {
+		double result = test.divide(4,2);
+		assertEquals(2.0, result);
+	}
 }
