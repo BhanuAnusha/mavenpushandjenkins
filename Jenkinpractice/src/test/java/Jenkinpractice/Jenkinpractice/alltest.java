@@ -40,7 +40,7 @@ class alltest {
 		assertEquals(12, result);
 	}
 	@Test
-	void divitest1J() {
+	void divitest1J1() {
 		double result = test.divide(4,2);
 		assertEquals(2.0, result);
 	}
